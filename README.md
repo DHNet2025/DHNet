@@ -23,5 +23,5 @@ The second stage mitigates the catastrophic forgetting of the hypernetwork by co
 ##### 1.Run code
 For dataset CIFAR100 as an example
 ```
-bash train.sh 0,1   --options options/data/cifar100_10-10.yaml options/data/cifar100_order1.yaml options/model/cifar_hyper_gan.yaml     --name Hyper_GAN_Vit     --data-path /dataSet/    --output-basedir /checkpoint --memory-size 2000
+bash train.sh 0,1   --options options/data/cifar100_10-10.yaml  options/data/cifar100_order1.yaml  options/model/cifar_hyper_gan.yaml     --name Hyper_GAN_Vit     --data-path /dataSet/    --output-basedir /checkpoint   --memory-size 2000
 ```
